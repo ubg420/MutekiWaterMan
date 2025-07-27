@@ -1,0 +1,27 @@
+{
+    "image": "player",
+    "frame": {
+        "width":200,
+        "height":200,
+        "count": 9
+    },
+
+    "animations": {
+        "walk": {
+            "frames": [0,1,2],
+            "next": "walk",
+            "frequency": 6
+        },
+        "Nomu": {
+            "frames": [3,4,5],
+            "next": "Nomu",
+            "frequency": 3
+        },
+        "Kara": {
+            "frames": [6,7,8],
+            "next": "Kara",
+            "frequency": 6
+        }
+    }
+
+}

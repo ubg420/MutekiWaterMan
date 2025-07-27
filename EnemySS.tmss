@@ -1,0 +1,30 @@
+{
+    "image": "Enemy",
+    "frame": {
+        "width":200,
+        "height":200,
+        "count": 3
+    },
+
+    "animations": {
+        "tati": {
+            "frames": [0],
+            "next": "tati",
+            "frequency": 6
+        },
+        "kamae": {
+            "frames": [1],
+            "next": "kamae",
+            "frequency": 3
+        },
+        "shot": {
+            "frames": [2],
+            "next": "shot",
+            "frequency": 4
+        }
+
+
+
+    }
+
+}
